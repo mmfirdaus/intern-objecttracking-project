@@ -1,0 +1,22 @@
+1. setup up local gpu environment
+
+2. python package and convert yolo to tensorflow
+
+3. mot problem statement, object detection and recognition
+	-how to perform = yolo
+	-object tracking = locating moving objects in videos. tracking and maintaining the assignment of ID
+
+4.Simple online real time tracking ( Sort ). 
+	-handle motion prediction and data association
+	-relies on simple motion model
+	-Sort with deep assoiciation metric = Deep Sort = extension of sort.
+
+5. How yolo and deep sort work.
+	-object detection and recognition = yolo or fast-cnn
+	-motion prediction and feature generation 
+	-tracking
+
+6. What yolo and deep sort use for.
+	-tracking
+	-counting = gate
+	-density map/heat map/heat zone = -zone = in out, count in specific
